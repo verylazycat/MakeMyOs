@@ -1,6 +1,5 @@
 void dummpy_test_entrypoint()
 {
-
 }
 
 void main()
