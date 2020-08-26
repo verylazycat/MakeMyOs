@@ -19,6 +19,7 @@ mov al, [bx]
 int 0x10
 
 ;更好的方法
+;在二进制文件中，X存储在字节0x2d
 mov al, "4"
 int 0x10
 mov al, [0x7c2d]
