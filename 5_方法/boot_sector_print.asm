@@ -1,5 +1,6 @@
 print:
     pusha; push all
+    
 ; while (string[i] != 0) { print string[i]; i++ }
 start:
     mov al, [bx] ;[bx]为字符串首地址
